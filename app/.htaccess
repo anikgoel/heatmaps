@@ -3,3 +3,5 @@
     RewriteRule    ^$    webroot/    [L]
     RewriteRule    (.*) webroot/$1    [L]
 </IfModule>
+# Use PHP 5.3
+AddType application/x-httpd-php53 .php
