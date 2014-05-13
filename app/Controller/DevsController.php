@@ -10,6 +10,10 @@ class DevsController extends AppController {
         $this->layout = NULL;
     }
 
+    /**
+     * Function to save clicks on pages.
+     * @author Anik Goel <anikgoel19@gmail.com>
+     */
     public function saveClicks() {
         $this->autoRender = FALSE;
         $data = $this->params->query;
@@ -18,6 +22,10 @@ class DevsController extends AppController {
         $this->Click->save($data['data']);
     }
 
+    /**
+     * Function to get clicks based on location
+     * @author Anik Goel <anikgoel19@gmail.com>
+     */
     public function getClicks() {
         $this->autoRender = FALSE;
         $this->loadModel('Click');
