@@ -14,4 +14,6 @@ If you want to integrate this service directly into your website just paste the 
 &lt;script type="text/javascript" src="http://development.luminogurus.com/heatmaps/js/clickmap.js"></script>
 
 
-Note :- This is in beta mode.
+Note :- 
+1. This is in beta mode.
+2. If you are going to use the backend part, include database.php and core.php in the app/Config folder. It is not there in this commit.
