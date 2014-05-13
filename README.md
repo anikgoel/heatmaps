@@ -11,7 +11,7 @@ Find the sql file for database at app/Config/Schema/clickmap.sql
 If you want to integrate this service directly into your website just paste the below code - 
 
 &lt;link rel="stylesheet" type="text/css" href="http://development.luminogurus.com/heatmaps/css/clickmap.css" />
-&lt;script type="text/javascript" src="http://development.luminogurus.com/heatmaps/js/clickmap.js">&lt;/script>
+&lt;script type="text/javascript" src="http://development.luminogurus.com/heatmaps/js/clickmap.js" /> &lt;/script>
 
 
 Note :- <br/> 
