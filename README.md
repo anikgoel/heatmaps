@@ -6,7 +6,7 @@ There is a js file in the app/webroot/js/clickmap.js and css file app/webroot/cs
 
 Currently you can see the heatmaps by pressing Ctrl+Shift on the webpage and clickmaps by pressing Ctrl+Alt. This can be altered from clickmap.js according to the need.
 
-Find the sql file for database at app/Config/Schema/clickmap/sql
+Find the sql file for database at app/Config/Schema/clickmap.sql
 
 If you want to integrate this service directly into your website just paste the below code - 
 
